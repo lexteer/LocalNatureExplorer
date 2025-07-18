@@ -54,7 +54,7 @@ function Hero() {
             </p>
 
             <div className="self-center justify-center flex mx-auto">
-      <LoadScript googleMapsApiKey="AIzaSyCn_obfDkaJaivqXslDUl4w_CRhzBV1nbI" libraries={["places"]}>
+      <LoadScript googleMapsApiKey="" libraries={["places"]}>
         <div className="flex border-2 bg-white rounded-full border-white overflow-hidden max-w-md mx-auto font-montserrat">
           <Autocomplete
             onLoad={(autocomplete) => (autocompleteRef.current = autocomplete)}
